@@ -12,7 +12,7 @@ echo $1
 echo "-----"
 DATABASE_IP=$1 
 echo "-----"
-echo sudo docker run -d -e DB_IP="${DATABASE_IP}" -p 5000:5000 karthdz/oci-db-app:python-flask-app
-sudo docker run -d -e DB_IP="${DATABASE_IP}" -p 5000:5000 karthdz/oci-db-app:python-flask-app
+echo sudo docker run -d -e DB_IP="${DATABASE_IP}" -p 5000:5000 testuser2000/python-flask:python-flask-app
+sudo docker run -d -e DB_IP="${DATABASE_IP}" -p 5000:5000 testuser2000/python-flask:python-flask-app
 echo "Docker run complete"
 command || exit 1

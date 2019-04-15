@@ -2,7 +2,7 @@
 #Enter Your Tenancy OCID
 export TF_VAR_tenancy_ocid="Enter your tenancy OCID here"
 #Enter Your User OCID
-export TF_VAR_user_ocid="Enter your root user OCID here"
+export TF_VAR_user_ocid="Enter your user OCID here"
 #Enter Your Fingerprint
 export TF_VAR_fingerprint="Enter your fingerprint here"
 #Enter Your Region (Example: us-ashburn-1)
